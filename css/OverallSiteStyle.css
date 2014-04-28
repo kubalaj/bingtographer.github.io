@@ -1,0 +1,91 @@
+body{
+	background-color: #E6E6DC;
+}
+
+h3{
+	font-size: 36px;
+	color: #00628B;
+	font-family: Nauman;
+
+}
+
+@font-face
+{
+font-family: Nauman;
+src: url(../fonts/Nauman_Regular_Regular.otf);
+}
+
+h1{
+	font-size: 72px;
+	font-family: Nauman;
+}
+
+h2{
+	margin-bottom: 15px;
+	font-size: 40px;
+	font-family: Nauman;
+}
+
+p{
+	font-size: 15px;
+	font-family: Nauman;
+}
+
+img{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+.nav_list {
+	list-style-type: none;
+}
+
+.navigation {
+	margin-top: 6%;
+	position: fixed;
+	color: #00628B;
+	font-size: 20px;
+}
+
+#selected_page{
+	color:Black;
+	font-size: 25px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  	fill: none;
+  	stroke: steelblue;
+  	stroke-width: 1.5px;
+	color: Black;
+}
+
+.color1{
+background: #81A594;
+}
+.content {
+	border-left: 3px;
+	background-color: Beige;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.no-margin{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.row-center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
